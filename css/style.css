@@ -1,0 +1,88 @@
+body{
+background: linear-gradient(rgba(21, 21, 21, 0.88),rgba(2, 26, 64, 0.81)), url(../img/bg.jpg);
+background-attachment: fixed;
+background-size: cover; 
+}
+h3{color: #fff;}
+a {color: #0c84ea;}
+.clear{clear: both;}
+
+/**splash-page**/
+
+.splash-page center{ margin: 150px auto; }
+.splash-logo{
+border-radius: 50%;
+background: #067919;
+padding: 27px;
+border: 10px solid rgba(255, 255, 255, 0.85);
+}
+.splash-page h2, .login h2, .title{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+/** Login **/
+.login center{ margin: 65px auto 15px; }
+.login img{ width: 30%;}
+
+
+.login input{ 
+    padding: 22px 15px;
+    margin: 10px 0px;
+}
+
+.login input[type="submit"]{padding: 15px 15px;}
+
+.admin-logo{background: #b92302;}
+
+/***navbar***/
+
+.navbar{ margin-bottom: 0px; border-radius: 0px;  }
+.nav-col{padding:0px;background: #e67e22; }
+.navbar-nav {float: right;}
+
+.navbar-inverse {background-color: #0a70b0; border-color: #0a70b0;}
+nav .glyphicon, .navbar-brand{color: #fff!important; }
+
+/**page**/
+
+.page, .inner-page{ margin-top: 40px; }
+.page img.logo { 
+	       width: 23%;
+	       border: 8px solid rgba(255, 255, 255, 0.85);
+}
+
+a.menu-tab{ width: 100%; text-align: center;    margin: 8px 0px; }
+
+.content{
+	padding: 25px 10px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #222;
+}
+
+.inner-page img.logo { 
+   width: 15%;
+   border: 5px solid rgba(255, 255, 255, 0.85);
+   padding: 10px;
+}
+
+.inner-page h2.title {
+   font-size: 26px;
+   margin: 5px 0;
+   color: #222;
+}
+
+.inner-page h3.sub-title{
+	font-size: 22px;
+    margin-top: 5px;
+    color: #222;
+}
+
+
+/**table**/
+
+thead{ background: #02815d;}
+th{color:#fff;}
+.dataTables_wrapper {margin-top: 18px;}
