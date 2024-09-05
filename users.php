@@ -22,7 +22,6 @@
         $query = "DELETE FROM farmers_tbl WHERE farmer_id = $deleteid";
         $result = mysqli_query($connection, $query);
         header("Location: users.php");
-
       }
 ?>
 <?php 

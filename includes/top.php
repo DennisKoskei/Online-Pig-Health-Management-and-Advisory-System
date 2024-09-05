@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>PIGS WAKULIMA</title>
+	<title>Online Pig Health Management and Advisory System</title>
 
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
@@ -57,7 +57,7 @@
 
  			<img src="img/logo-big.png" class="splash-logo logo <?php if(isset($_SESSION['pig_admin_user_id'])) echo 'admin-logo'; ?>">
 
- 			<h2 align="center" class="title">PIGS WAKULIMA</h2>
+ 			<h2 align="center" class="title">Online Pig Health Management and Advisory System</h2>
 
  			<h3 class="sub-title">Welcome <?php echo $session_names; ?>  | <a href="logout.php">Logout</a></h3>
 
